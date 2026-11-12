@@ -22,7 +22,6 @@ transform:perspective(420px) rotateX(38deg);transform-origin:bottom;opacity:.9}
 .fade{position:absolute;inset:auto 0 0 0;height:30%;background:linear-gradient(transparent,#07040dcc);pointer-events:none}
 #cap{position:absolute;left:5%;right:5%;bottom:16%;font-weight:700;font-size:clamp(13px,2.4vh,17px);text-shadow:0 1px 8px #000}
 
-/* ===== Mode landscape (laptop) ===== */
 body.landscape .stage{aspect-ratio:auto;width:100vw;height:100vh}
 body.landscape #code{left:12%;right:12%;bottom:32%;max-height:52%;font-size:clamp(16px,3.6vh,34px)}
 body.landscape #cap{left:12%;right:12%;bottom:23%;font-size:clamp(14px,2.4vh,20px)}
